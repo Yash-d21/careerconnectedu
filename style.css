@@ -500,6 +500,38 @@ ul {
     width: 100%;
 }
 
+.course-card.featured {
+    border: 2px solid var(--accent-gold);
+    background-color: var(--accent-gold-light);
+    transform: scale(1.02);
+    position: relative;
+}
+
+.course-card.featured:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: var(--shadow-lg);
+}
+
+.course-card.featured .course-icon-box {
+    background-color: var(--accent-gold);
+    color: var(--primary-white);
+}
+
+.featured-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: var(--accent-gold);
+    color: var(--primary-white);
+    padding: 0.25rem 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+    letter-spacing: 0.05em;
+    font-family: var(--font-heading);
+}
+
 /* Why Choose Us */
 .why-grid {
     display: grid;
